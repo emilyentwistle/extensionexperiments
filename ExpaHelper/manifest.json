@@ -1,0 +1,26 @@
+{
+  "manifest_version": 2,
+
+  "name": "Expa Helper",
+  "short_name": "EP Extract",
+  "version": "0.1",
+
+  "description": "This extension will extract individual EP information",
+
+  "author": "Emily Entwistle
+
+  "browser_action": {
+   "default_icon": "icon.png",
+   "default_popup": "popup.html",
+   "default_title": "Extract your EPs from Expa"
+  },
+
+
+
+  "permissions": [
+   "activeTab",
+   "tabs",
+   "cookies",
+   "https://experience.aiesec.org/"
+   ]
+}
