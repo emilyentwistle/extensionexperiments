@@ -1,4 +1,6 @@
-document.addEventListener('DOMContentLoaded', function() {
+/// <reference path="chrome_extensions.js" />
+
+document.addEventListener('DOMContentLoaded', function () {
   var checkPageButton = document.getElementById('checkPage');
   checkPageButton.addEventListener('click', function() {
 
